@@ -22,7 +22,7 @@ class CreateBooksTable extends Migration
             $table->string("edition",50);
             $table->smallinteger("pages");
             $table->date("year");
-            $table->string("image",);
+            $table->string("image");
             $table->timestamps();
         });
     }
